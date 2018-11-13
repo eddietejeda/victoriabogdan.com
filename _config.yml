@@ -1,0 +1,49 @@
+name:               "Victoria A Bogdan"
+description:        ""
+
+url:                ""
+author:             "victoriabogdan"
+gravatar_hash:      "fc0e0a6d10184b07de8ddfaa247c1727"
+twitter:            "v_bogg"
+email:              "bogdanvictoria@gmail.com"
+linkedin:           "victoriabogdan"
+
+# background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
+
+paginate:           5
+paginate_path:      "/page:num/"
+
+baseurl:            ""
+permalink:          /:year/:month/:day/:title/
+
+markdown:           kramdown
+
+nav:
+  - name:           "About"
+    href:           "/"
+  # - name:           "Work"
+  #   href:           "/work"
+  # - name:           "Writing"
+  #   href:           "/writing"
+  # - name:           "Speaking"
+  #   href:           "/speaking"
+
+sass:
+  style:            :compressed
+
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+gems:
+  - jekyll-paginate
