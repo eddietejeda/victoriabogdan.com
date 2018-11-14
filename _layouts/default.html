@@ -8,19 +8,17 @@
         <a href="/"><img src="https://www.gravatar.com/avatar/{{ site.gravatar_hash }}?s=800" class="img-circle" /></a>
         <p>{{ site.description }}</p>
         <ul class="social">
-            {% if site.github %}
-            <a type="button" href="http://github.com/{{ site.github }}">
-                <i class="fa fa-github"></i>
-            </a>
-            {% endif %} {% if site.twitter %}
+            {% if site.twitter %}
             <a type="button" href="http://twitter.com/{{ site.twitter }}">
                 <i class="fa fa-twitter"></i>
             </a>
-            {% endif %} {% if site.linkedin %}
+            {% endif %} 
+            {% if site.linkedin %}
             <a type="button" href="http://linkedin.com/in/{{ site.linkedin }}">
                 <i class="fa fa-linkedin"></i>
             </a>
-            {% endif %} {% if site.facebook %}
+            {% endif %} 
+            {% if site.facebook %}
             <a type="button" href="http://facebook.com/{{ site.facebook }}">
                 <i class="fa fa-facebook"></i>
             </a>
